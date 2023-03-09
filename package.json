@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "name": "employeemanagement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "client": "npm start --prefix frontend",
+    "server": "npm start --prefix backend",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "Nimesh Dilshan",
+  "license": "ISC",
+  "description": ""
+}

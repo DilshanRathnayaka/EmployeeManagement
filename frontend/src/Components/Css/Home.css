@@ -1,0 +1,97 @@
+.button-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 88.56%;
+    right: 2.6%;
+    top: 11.94%;
+    bottom: 84.08%;
+    
+    background: #0052EA;
+    border-radius: 4px;
+}
+.table{
+    position: absolute;
+    width: 1168px;
+    height: 620px;
+    left: 32px;
+    top: 152px;
+
+}
+.delete_edit{
+    display: flex;
+    gap: 46px;
+}
+.form{
+ display: grid;
+ row-gap: 2px;
+
+}
+.form2{
+    display: grid;
+    row-gap: 24px;
+   
+   }
+.title-and-input{
+    display: grid;
+}
+.fullname{
+    width: 5px;
+    height: 32px;
+}
+.double{
+    display: flex;
+    column-gap: 24px;
+}
+label{
+    color: #00318C;
+}
+.dropdown{
+   
+  width:174px ;
+  height: 32px;
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 77.56%;
+    right: 2.6%;
+    top: 11.24%;
+    bottom: 84.08%;
+    
+    
+}
+.select{
+   
+    width: 174px;
+    height: 32px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 75.56%;
+    right: 2.6%;
+    top: 11.94%;
+    bottom: 84.08%;
+
+}
+.select:hover{
+border-color: #00318C;
+color: #00318C;
+
+}

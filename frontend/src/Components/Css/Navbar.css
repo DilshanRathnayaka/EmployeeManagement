@@ -1,0 +1,16 @@
+nav{
+    width: auto;
+    height: 72px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.title{
+position: absolute;
+padding: 22px 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.017px;
+color: #000000;
+}
